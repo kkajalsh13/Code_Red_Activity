@@ -1,0 +1,126 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sd-12">
+            <div class="MainComponent">
+                <h1>Identify which country which swift currency code relates to - some are easier than others!</h1>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sd-12">
+                        <table style="width: 100%;">
+                            <tr>
+                                <th>Swift</th>
+                                <th>Country</th>
+                                <th>Result</th>
+                    
+                            </tr>
+
+                            <tr>
+                                <td>USD</td>
+                                <td> <input class="inp" id="L1" [(ngModel)]="input1" type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[0]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[0]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>EUR</td>
+                                <td><input class="inp" id="L2"  [(ngModel)]="input2"  type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[1]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[1]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>NZD</td>
+                                <td><input class="inp" id="L3"  [(ngModel)]="input3"  type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[2]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[2]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CLP</td>
+                                <td><input class="inp" id="L4"  [(ngModel)]="input4"  type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[3]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[3]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>THB</td>
+                                <td><input class="inp" id="L5"  [(ngModel)]="input5"  type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[4]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[4]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sd-12">
+                        <table style="width: 100%;">
+                            <tr>
+                                <th>Swift</th>
+                                <th>Country</th>
+                                <th>Result</th>
+                    
+                            </tr>
+
+                            <tr>
+                                <td>MYR</td>
+                                <td> <input class="inp" id="L6"   [(ngModel)]="input6" type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[5]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[5]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>KES</td>
+                                <td><input class="inp" id="L7" [(ngModel)]="input7"  type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[6]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[6]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ILS</td>
+                                <td><input class="inp"id="L8"  [(ngModel)]="input8"  type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[7]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[7]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SAR</td>
+                                <td><input class="inp" id="L9"  [(ngModel)]="input9"  type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[8]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[8]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ZAR</td>
+                                <td><input class="inp" id="L10"  [(ngModel)]="input10"  type="text"></td>
+                                <td>
+                                    <img src="assets/check.png" *ngIf="correct[9]" width="30" height="30" alt="">
+                                    <img src="assets/cross.png" *ngIf="wrong[9]" width="30" height="30" alt="">
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+                </div>
+                <div class="buttons">
+                    <button class="submit" (click)="submit()">Submit</button>
+                    <button class="reset" (click)="reset()">Reset</button>
+                    <button class="showAnswers" *ngIf="Answer" (click)="showAnswer()">Show Answers</button>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>

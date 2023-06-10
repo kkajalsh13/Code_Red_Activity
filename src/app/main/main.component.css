@@ -1,0 +1,90 @@
+.MainComponent{
+    background-color: #FFFFFF;
+    padding: 2%;
+}
+h1{
+    color:  rgb(137, 137, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25PX;
+    font-weight: 500;
+}
+.row{
+    margin-top: 3%;
+}
+table{
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+table th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: rgb(33, 33, 67);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+}
+table td{
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(213, 218, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+}
+.inp{
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    box-shadow: 1px 0px 1px 0px rgb(164, 164, 164);
+    background-color: rgb(247, 245, 247);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.buttons{
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+    
+}
+.submit{
+    padding: 10px 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0 1px;
+    background-color:rgb(57, 57, 100);
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight:600 ;
+     color: white;
+
+}
+.reset{
+    padding: 10px 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow:  -1px 1px 0 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600 ;
+    color: white;
+    background-color:rgb(57, 57, 100);
+
+}
+.showAnswers{
+    padding: 10px 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow:  -1px 1px 0 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600 ;
+    color: white;
+    background-color:rgb(57, 57, 100);
+   
+
+}
